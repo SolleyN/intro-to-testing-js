@@ -4,8 +4,10 @@ function helloWorld() {
 }
 
 function sayHello(input) {
-
-   return `Hello, ${input}!`;
+if (input === true) {
+    return "Hello World!";
+} return false;
+    return `Hello, ${input}!`;
 
 
 }

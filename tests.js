@@ -50,7 +50,13 @@ describe('helloWorld', function() {
                 it("should never return 'undefined' when called", function() {
                    expect(sayHello()).not.toBe(undefined);
                 });
+                expect(sayHello()).toBe("Hello, World!");
+
+                expect(sayHello(true)).toBe("Hello, World!")
+
+                expect(sayHello(false)).toBe("Hello, World!")
             });
+
                 });
 
 
