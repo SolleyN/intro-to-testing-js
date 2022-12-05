@@ -14,3 +14,10 @@ if (input === true) {
 
 }
 
+function isFive(input) {
+    if (input === true || input === false) {
+        return "Hello, World!";
+
+    }
+}
+
